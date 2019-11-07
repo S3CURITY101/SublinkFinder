@@ -1,8 +1,8 @@
 # SublinkFinder
 
-SublinkFinder.py - Finding SubLinks made Easier
-Author: Batang Hamog (S3CUR1TY101)
-Email: anti.static189@gmail.com
+SublinkFinder.py - Finding SubLinks made Easier <br>
+Author: Batang Hamog (S3CUR1TY101)<br>
+Email: anti.static189@gmail.com<br>
 Usage: SublinkFinder.py target site https://target.com 
 
 Note* include http:// or https:// 

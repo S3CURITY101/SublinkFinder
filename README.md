@@ -14,11 +14,11 @@ page that it found while its traversal. It uses small yet effective
 payloads to search for Sublinks that can leak some interesting reconnaissance
 
 
-Installation:
+<b>Installation:</b>
 
-git clone https://github.com/S3CURITY101/SublinkFinder
-cd SublinkFinder
-chmod +x SublinkFinder
+git clone https://github.com/S3CURITY101/SublinkFinder<br>
+cd SublinkFinder<br>
+chmod +x SublinkFinder<br>
 ./SublinkFinder -h
 
 Usage: SublinkFinder.py target-site e.g. https://target.com 

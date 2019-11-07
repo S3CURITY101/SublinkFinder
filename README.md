@@ -28,3 +28,6 @@ Note* include http:// or https://
 
 Buy me some coffee
 paypal.me/RapRap11
+
+
+Special Thanks to this Human Python Master @Paulo Sairel Don 

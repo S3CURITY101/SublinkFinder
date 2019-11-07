@@ -1,8 +1,8 @@
 # SublinkFinder
 
-SublinkFinder.py - Finding SubLinks made Easier <br>
-Author: Batang Hamog (S3CUR1TY101)<br>
-Email: anti.static189@gmail.com<br>
+<b>SublinkFinder.py</b> - Finding SubLinks made Easier <br>
+<b>Author:</b> Batang Hamog (S3CUR1TY101)<br>
+<b>Email:</b> anti.static189@gmail.com<br>
 
 
 <h3>Description:</h3><br> SublinkFinder is a python tool for finding Sublinks

@@ -7,6 +7,8 @@ __copyright__   = "Copyright 2019, Planet Earth"
 
 import os
 import argparse
+import urllib
+
 
 
 class color:
@@ -43,9 +45,27 @@ parser.add_argument('-i', action='store', dest='info',
 results = parser.parse_args()
 
 
-hamog = input('SublinkFinder.py: ')
-cmd = 'curl {}'.format(hamog) + ' | grep -Po "(\/)((?:[a-zA-Z\-_\:\.0-9\{\}]+))(\/)*((?:[a-zA-Z\-_\:\.0-9\{\}]+))(\/)((?:[a-zA-Z\-_\/\:\.0-9\{\}]+))" | sort -u '
+
+def sanitize(input_string):
+    output_string = ''
+    for i in input_string:
+        if i == '<':
+            outchar = '&gt;'
+        elif i == ';':
+            outchar = '&gt;'
+        elif i == ' ':
+            outchar = '&gt;'
+        else:
+            outchar = i
+        output_string += outchar
+    return output_string
+
+
+
+clean = input('SublinkFinder.py: ')
+hugas = sanitize(clean)
+
+cmd = 'curl {}'.format(hugas) + ' | grep -Po "(\/)((?:[a-zA-Z\-_\:\.0-9\{\}]+))(\/)*((?:[a-zA-Z\-_\:\.0-9\{\}]+))(\/)((?:[a-zA-Z\-_\/\:\.0-9\{\}]+))" | sort -u '
+
+
 os.system(cmd)
-
-
-

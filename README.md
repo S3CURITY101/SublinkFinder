@@ -23,7 +23,7 @@ chmod +x SublinkFinder<br>
 
 <h5>Usage: SublinkFinder.py target-site e.g. https://target.com</h5> 
 
-Note* include http:// or https:// 
+<h5>Note* include http:// or https:// </h5> 
 
 
 

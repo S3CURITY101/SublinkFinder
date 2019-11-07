@@ -14,7 +14,7 @@ page that it found while its traversal. It uses small yet effective
 payloads to search for Sublinks that can leak some interesting reconnaissance
 
 
-<b>Installation:</b>
+<h3>Installation:</h3>
 
 git clone https://github.com/S3CURITY101/SublinkFinder<br>
 cd SublinkFinder<br>
@@ -26,8 +26,11 @@ Usage: SublinkFinder.py target-site e.g. https://target.com
 Note* include http:// or https:// 
 
 
+
 Buy me some coffee
 paypal.me/RapRap11
 
 
 Special Thanks to this Human Python Master @Paulo Sairel Don 
+
+

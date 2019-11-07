@@ -6,7 +6,7 @@ Email: anti.static189@gmail.com<br>
 
 
 Description: SublinkFinder is a python tool for finding Sublinks
-in websites. This tool is the recompile from one liner curl scripts
+in websites. This tool is sort of recompile curl commands that is one line command
 Instead of just checking one page as most of the tools do, this tool
 traverses the website and find all the links and subdomains first.
 After that, it starts scanning each and every input on each and every
